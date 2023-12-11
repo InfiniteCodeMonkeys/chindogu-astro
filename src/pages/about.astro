@@ -1,0 +1,25 @@
+---
+import Layout from '@layouts/Default.astro';
+import { Card } from '@eliancodes/brutal-ui';
+import { Fragment } from 'astro/dist/runtime/server';
+
+
+---
+
+<Layout
+  title='Home'
+  pageTitle='Chindogu Labs | About'
+  description='Building the un-useless.'
+>
+  <main class='bg-pink p-6 min-h-[100vh]'>
+ <Card>
+  <div class="flex flex-col justify-center items-center h-52  w-full">
+    <p class='text-2xl'>Building the un-useless.</p>
+    <p class='text-xl my-6'>The catch-all vehicle for indiehacker Mike Dyer's projects.</p>
+    <p class='text-xl'>Learn more about Mike <a href="https://mikedyer.vercel.app">here.</a></p>
+  </div>
+
+
+ </Card>
+  </main>
+</Layout>

@@ -1,18 +1,30 @@
-import { z, defineCollection } from 'astro:content';
+import { z, defineCollection } from "astro:content";
 
-const blogCollection = defineCollection({
+const projectsCollection = defineCollection({
   schema: ({ image }) =>
     z.object({
       title: z.string(),
-      author: z.string(),
       tags: z.array(z.string()),
       description: z.string(),
-      pubDate: z.string().transform((str) => new Date(str)),
       imgUrl: image(),
       draft: z.boolean().optional().default(false),
+      url: z.string().optional(),
+    }),
+});
+
+const graveyardCollection = defineCollection({
+  schema: ({ image }) =>
+    z.object({
+      title: z.string(),
+      tags: z.array(z.string()),
+      description: z.string(),
+      imgUrl: image(),
+      draft: z.boolean().optional().default(false),
+      url: z.string().optional(),
     }),
 });
 
 export const collections = {
-  blog: blogCollection,
+  projects: projectsCollection,
+  graveyard: graveyardCollection,
 };

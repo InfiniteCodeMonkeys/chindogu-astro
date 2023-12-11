@@ -1,27 +1,31 @@
 ---
-title: Blogpost 4
-author: Elian Van Cutsem
-pubDate: 2023-02-15 12:00
+title: LegeBot
 tags:
-  - Astro
-  - JavaScript
-  - Web Development
-description: Lorem markdownum longo os thyrso telum, continet servat fetus nymphae, vox nocte sedesque, decimo. Omnia esse, quam sive; conplevit illis indestrictus admovit dedit sub quod protectus, impedit non.
-imgUrl: '../../assets/astro.jpeg'
+  - TypeScript
+  - React
+  - NodeJS
+  - TailwindCSS
+  - PostgreSQL
+  - Stripe
+  - OpenAI
+  - Algolia
+imgUrl: "../../assets/legebot.png"
+description: Keep tabs on everything DC-related with the power of AI.
 layout: "../../layouts/BlogPost.astro"
+url: "https://www.legebot.com"
 ---
 
 ## Deorum petiit ignis
 
-Lorem markdownum longo os thyrso telum, continet servat fetus nymphae, *vox
-nocte sedesque*, decimo. Omnia esse, quam sive; conplevit illis indestrictus
+Lorem markdownum longo os thyrso telum, continet servat fetus nymphae, _vox
+nocte sedesque_, decimo. Omnia esse, quam sive; conplevit illis indestrictus
 admovit dedit sub quod protectus, impedit non.
 
 ## Iovis late orbem Perseus sunt
 
 Aras reperire, sui motis correpti coniunx Onetor amore ferire lacertis, petiit.
-Bis pallor et mecum me, igne patruelibus *tendebam*, vultu sterilique terruerat
-*tempore* medium aera **eadem Mittor**.
+Bis pallor et mecum me, igne patruelibus _tendebam_, vultu sterilique terruerat
+_tempore_ medium aera **eadem Mittor**.
 
 - Non turba loca dederunt primordia ineamus Dictys
 - Tanti amat mundus sedula

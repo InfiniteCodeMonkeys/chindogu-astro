@@ -4,22 +4,17 @@ interface Props {
 }
 
 const navigationItems = [
-  { name: 'Home', url: '/' },
-  { name: 'Blog', url: '/blog/' },
+   { name: 'Home', url: '/' },
+   { name: 'About', url: '/about/' },
 ];
 
 const socialIcons = [
   {
     name: 'GitHub',
-    url: 'https://github.com/eliancodes/brutal',
+    url: 'https://github.com/InfiniteCodeMonkeys',
     icon: 'i-uil-github',
   },
-  {
-    name: 'Twitter',
-    url: 'https://www.twitter.com/eliancodes',
-    icon: 'i-uil-twitter',
-  },
-  { name: 'RSS', url: '/feed.xml', icon: 'i-uil-rss' },
+
 ];
 
 const { pageTitle } = Astro.props;
@@ -28,7 +23,7 @@ const { pageTitle } = Astro.props;
 <header class='border-b-4 border-black flex justify-between p-6 items-center'>
   {pageTitle && <h1 class='hidden'>{pageTitle}</h1>}
   <a href='/' title='Back to Home'>
-    <p class='righteous md:text-5xl'>Brutal</p>
+    <p class='righteous md:text-5xl'>Chindogu Labs</p>
   </a>
   <nav class='hidden md:inline-block'>
     <h2 class='hidden'>Navigation</h2>
@@ -65,7 +60,8 @@ const { pageTitle } = Astro.props;
   <nav class='md:hidden flex'>
     <h2 class='hidden'>Mobile Navigation</h2>
     <ul>
-      <li><a href='/blog/'>Blog</a></li>
+      <li><a href='/'>Home</a></li>
+      <li><a href='/about/'>About</a></li>
     </ul>
   </nav>
 </header>
