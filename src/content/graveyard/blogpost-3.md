@@ -1,5 +1,5 @@
 ---
-title: AnnoPod
+title: theCurricula
 tags:
   - TypeScript
   - React
@@ -7,8 +7,8 @@ tags:
   - tRPC
   - TailwindCSS
   - NextJS
-  - GraphQL
-imgUrl: "../../assets/annopod.png"
-description: Read the good parts of your favorite podcasts
+  - Open AI
+imgUrl: "../../assets/curricula.png"
+description: Find a better way to learn any subject on your own
 layout: "../../layouts/BlogPost.astro"
 ---

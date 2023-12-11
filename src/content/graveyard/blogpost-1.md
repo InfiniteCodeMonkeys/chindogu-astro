@@ -1,11 +1,10 @@
 ---
-title: JunkDrawr
+title: Carbon Undone
 tags:
-  - TypeScript
+  - JavaScript
   - React
-  - NodeJS
-  - NextJS
-imgUrl: "../../assets/junkbox_cropped.jpg"
-description: Mail your eWaste to be ethically recycled
+  - Firebase
+imgUrl: "../../assets/cu.png"
+description: Manage your small business's carbon footprint
 layout: "../../layouts/BlogPost.astro"
 ---

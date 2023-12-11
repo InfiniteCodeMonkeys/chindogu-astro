@@ -1,14 +1,11 @@
 ---
-title: theCurricula
+title: JunkDrawr
 tags:
-  - TypeScript
+  - JavaScript
   - React
   - NodeJS
-  - tRPC
-  - TailwindCSS
   - NextJS
-  - Open AI
-imgUrl: "../../assets/curricula.png"
-description: Find a better way to learn any subject on your own
+imgUrl: "../../assets/junkbox_cropped.jpg"
+description: Mail your eWaste to be ethically recycled
 layout: "../../layouts/BlogPost.astro"
 ---
