@@ -1,14 +1,16 @@
 ---
-title: theCurricula
+title: LegeBot
 tags:
   - TypeScript
   - React
   - NodeJS
-  - tRPC
   - TailwindCSS
-  - NextJS
-  - Open AI
-imgUrl: "../../assets/curricula.png"
-description: Find a better way to learn any subject on your own
+  - PostgreSQL
+  - Stripe
+  - OpenAI
+  - Algolia
+imgUrl: "../../assets/legebot.png"
+description: Keep tabs on everything DC-related with the power of AI.
 layout: "../../layouts/BlogPost.astro"
+url: "https://www.legebot.com"
 ---
